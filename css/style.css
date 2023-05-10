@@ -38,6 +38,20 @@ button {
     border-radius: 13px;
     background-color: rgb(90, 223, 152);
     font-size: 15px;
+    box-shadow: 1px 1px 5px #000;
+}
+button:active {
+    transform: translateY(2px);
+    background-color: rgba(90, 223, 152, 0.663);;
+    
+  }
+@media (max-width: 768px){
+    .item {
+        display: grid;
+        grid-template-columns: repeat(2, 80px);
+        grid-template-rows: repeat(2, 35px);
+        gap: 23px 45px;
+    }
 }
 
 
